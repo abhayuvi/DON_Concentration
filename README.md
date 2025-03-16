@@ -1,11 +1,11 @@
-# DON_Concentration
+# DON Concentration
 
 ## Overview
 This project focuses on predicting DON concentration in corn samples using hyperspectral imaging data. It involves data preprocessing, model training, evaluation, and API deployment for real-time predictions.
 
 ## Repository Structure
 ```
-MLE-Assignment/
+DON_Concentration/
 │── data/
 │   ├── MLE-Assignment.csv  # Raw dataset
 │   ├── processed_data.csv  # Preprocessed dataset
@@ -33,7 +33,7 @@ MLE-Assignment/
 ### 1. Clone the Repository
 ```bash
 git clone <repository_url>
-cd MLE-Assignment
+cd DON_Concentration
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -93,12 +93,12 @@ pytest tests/
 ## Docker Setup
 ### 1. Build the Docker Image
 ```bash
-docker build -t mle-assignment .
+docker build -t DON_Concentration .
 ```
 
 ### 2. Run the Container
 ```bash
-docker run -p 8000:8000 mle-assignment
+docker run -p 8000:8000 DON_Concentration
 ```
 ## [Report](https://docs.google.com/document/d/1VhziDAZ_123gH--wI0egCKVxi_sl8BxTzmhp96YTKkI/edit?tab=t.0)
 
