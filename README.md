@@ -1,7 +1,5 @@
 # DON_Concentration
 
-# Machine Learning Engineer Assignment
-
 ## Objective
 Develop a machine learning pipeline to predict DON concentration in corn samples using hyperspectral imaging data.
 
@@ -44,7 +42,7 @@ python src/model_evaluation.py
 
 ## Running API
 ```bash
-uvicorn deployment:app --host 0.0.0.0 --port 8000
+uvicorn deployment.app:app --host 0.0.0.0 --port 8000
 ```
 
 ## Running Tests
@@ -59,8 +57,3 @@ docker build -t mle-assignment .
 docker run -p 8000:8000 mle-assignment
 ```
 
-## Authors
-- Your Name
-
-## License
-MIT License
