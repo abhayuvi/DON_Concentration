@@ -57,3 +57,5 @@ docker build -t mle-assignment .
 docker run -p 8000:8000 mle-assignment
 ```
 
+### [Report](https://docs.google.com/document/d/1VhziDAZ_123gH--wI0egCKVxi_sl8BxTzmhp96YTKkI/edit?tab=t.0)
+
